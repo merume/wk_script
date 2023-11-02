@@ -1,5 +1,5 @@
 # 任意の緯度経度（ポイント）の学校（学区内）の取得
-# python main.py --lat 35.7764351  --long 139.6431903
+# python point_to_school.py --lat 35.7764351  --long 139.6431903
 
 import argparse
 import geopandas as gpd
