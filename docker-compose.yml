@@ -1,0 +1,15 @@
+version: '3'
+services:
+  geo-py:
+    build: ./geo_school_locator
+    working_dir: '/app'
+    tty: true
+    volumes:
+      - .:/app
+  geo-rs:
+    build: ./geo_rs
+    working_dir: '/app/geo_rs'
+    tty: true
+    volumes:
+      - .:/app
+

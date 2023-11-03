@@ -1,8 +1,0 @@
-version: '3'
-services:
-  gak-con:
-    build: .
-    working_dir: '/app'
-    tty: true
-    volumes:
-      - .:/app
